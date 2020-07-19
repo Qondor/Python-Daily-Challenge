@@ -9,4 +9,5 @@ def vowel_counter():
     countered_vowels = len(vowel_list)
     print(countered_vowels)
 
-vowel_counter()
+if __name__ == "__main__":
+    vowel_counter("Testable stingerino.")

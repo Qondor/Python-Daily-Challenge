@@ -22,8 +22,9 @@ def diamond(width):
         if star_count != (width - 1) and star_count % 2 == 1:
             print("  " * x_pos + "か" * star_count)
             x_pos += 1
-        
-diamond(9)
-diamond("LOL")
-diamond(4)
-diamond(21)
+
+if __name__ == "__main__":
+    diamond(9)
+    diamond("LOL")
+    diamond(4)
+    diamond(21)
