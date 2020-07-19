@@ -1,0 +1,5 @@
+The first part of this challenge is to create a method that can determine whether a number is a cubic number or not. If the number has been determined to not be cubic, the output should be either null or the string "Unlucky."
+
+Cubic numbers are numbers with at most three digits, such that the sum of the cubes of their digits is the number itself.
+
+For example: 153 is a cubic number, because 1^3 + 5^3 + 3^3 = 153.
