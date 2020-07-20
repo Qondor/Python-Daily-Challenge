@@ -1,21 +1,18 @@
 def word_spinner(input_words):
-    """Word spinner function.
+    """Word spinner.
 
+    Takes a string and reverses words that are 5 characters long or longer.
     """
     input_words = input_words.split()
-    reversed_words = []
+    reversed_list = []
+    separator = " "
     print(input_words)
     for word in input_words:
-        if len(word) >= 5 and word != input_words[-1]:
-            reversed_words.append(word[::-1])
-        elif len(word) > 5 and word == input_words[-1]:
-            word.split()
-            
-            reversed_words.append(word[::-1])
-        elif len(word) <= 5 and word == input_words[-1]:
-            reversed_words.append(word)
+        if len(word) >= 5:
+            reversed_list.append(f"{word[::-1]:}")
         else:
-            reversed_words.append(word)
-    return reversed_words
+            reversed_list.append(f"{word}")
+    reversed_string = separator.join(reversed_list)
+    return reversed_string
 
-print(word_spinner("Testable stingerino alb 2123."))
+print(word_spinner("Python XKCD AAADCKX One Two Fourteen"))
