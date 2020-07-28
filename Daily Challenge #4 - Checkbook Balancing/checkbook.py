@@ -27,4 +27,5 @@ def checkbook_calc(filename: str):
 
     return "\n".join(output_string)
 
-print(checkbook_calc("input.txt"))
+if __name__ == "__main__":
+    print(checkbook_calc("input.txt"))
