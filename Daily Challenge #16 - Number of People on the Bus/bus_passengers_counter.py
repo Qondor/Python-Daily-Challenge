@@ -5,11 +5,16 @@ def bus_counter(filename: str):
 
     Counts how many passengers get on/off the bus on each stop and calculate how many stays after the last one.
     """
-    stop_list = ()
+    passengers = 0
+    stop_list = {}
     with open(filename, "r", encoding="utf-8") as f:
         stop_list = json.loads(f.read())
-    # return stop_list
-    print(stop_list)
+    for a in stop_list:
+        if a[-1] == "n":
+            passengers += stop_list[a]
+        else:
+            passengers -= stop_list[a]
+    return passengers
 
 if __name__ == "__main__":
-    print(bus_counter("bus_stops.json"))
+    bus_counter("bus_stops.json")
