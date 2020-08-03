@@ -1,0 +1,5 @@
+Write a function that moves the first letter of each word to the end of the word, then add "ay". Leave punctuation untouched.
+
+Examples:
+pig_it('Pig latin is cool') # igPay atinlay siay oolcay
+pig_it('Hello world !') # elloHay orldway !
