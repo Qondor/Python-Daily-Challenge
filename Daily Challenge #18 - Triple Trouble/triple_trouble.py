@@ -30,8 +30,5 @@ def tripledouble(num1, num2):
     else:
         return 0
             
-
-
-
-# if __name__ == "__main__":
-print(tripledouble(11226660009321, 44555060669))
+if __name__ == "__main__":
+    print(tripledouble(11226660009321, 44555060669))
