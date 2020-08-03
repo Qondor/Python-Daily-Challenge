@@ -1,0 +1,7 @@
+The function will accept an input of non-negative integers. If it is zero, it just returns "now". Otherwise, the duration is expressed as a combination of years, days, hours, minutes, and seconds, in that order.
+
+The resulting expression is made of components like 4 seconds, 1 year, etc. The unit of time is used in plural if the integer is greater than 1. The components are separated by a comma and a space (", "), except the last component which is separated by " and ", just like it would be written in English. For the purposes of this challenge, a year is 365 days and a day is 24 hours. Note that spaces are important.
+
+The challenge is much easier to understand through example:
+format_duration(62) # returns "1 minute and 2 seconds"
+format_duration(3662) # returns "1 hour, 1 minute and 2 seconds"
