@@ -1,0 +1,9 @@
+Turn a given number (an integer > 0, < 1000) into the equivalent English words.
+For example:
+
+wordify(1) == "one"
+wordify(12) == "twelve"
+wordify(17) == "seventeen"
+wordify(56) == "fifty six"
+wordify(90) == "ninety"
+wordify(326) == "three hundred twenty six"
