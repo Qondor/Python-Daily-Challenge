@@ -1,4 +1,8 @@
 def tripledouble(num1, num2):
+    """Triple doubler.
+
+    Checks for a number and... just read the decription in txt file please.
+    """
     num1 = str(num1)
     num1 = list(num1)
     num2 = str(num2)
