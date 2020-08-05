@@ -1,0 +1,15 @@
+Your task is to implement a function that would take the Morse code as input and return a decoded human-readable string.
+
+For example:
+decodeMorse('.... . -.-- .--- ..- -.. .')
+should return "HEY JUDE"
+
+C++/Go/JavaScript/PHP/Python/Ruby/TypeScript:MORSE_CODE['.--']
+C#:MorseCode.Get(".--") (returns string)
+Elixir:morse_codes variable
+Elm:MorseCodes.get : Dict String String
+Haskell:morseCodes ! ".--" (Codes are in a Map String String)
+Java:MorseCode.get(".--")
+Kotlin:MorseCode[".--"] ?: "" or MorseCode.getOrDefault(".--", "")
+Rust:self.morse_code
+Scala: morseCodes(".--")
