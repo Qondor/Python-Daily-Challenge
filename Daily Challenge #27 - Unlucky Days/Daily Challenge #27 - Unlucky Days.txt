@@ -1,0 +1,13 @@
+Friday 13th or Black Friday is considered as an unlucky day. Calculate how many unlucky days are in the given year.
+
+Can you find the number of Friday 13th in the given year? Good luck!
+
+Input: Year as an integer.
+
+Output: Number of Black Fridays in the year as an integer.
+
+Examples:
+unluckyDays(2015) == 3
+unluckyDays(1986) == 1
+
+This challenge comes from user suic. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
