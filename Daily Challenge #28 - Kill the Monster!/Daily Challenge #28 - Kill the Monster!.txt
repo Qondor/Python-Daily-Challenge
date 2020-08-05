@@ -1,0 +1,14 @@
+We have a real challenge for you today - You are fighting against a monster and are strong enough to kill it with a few hits. But after every 3 punches you make, the monster hits you once. Your health is $h; number of monsters is $m, damage that monster can give you is $dm.
+
+Write a function that will calculate: how many hits you received, how much damage you received and your remaining health. If your health is <= 0, you die and function should return "hero died".
+
+Examples
+
+killMonsters(100, 3, 33); // => "hits: 0, damage: 0, health: 100"
+killMonsters(50, 7, 10); // => "hits: 2, damage: 20, health: 30"
+
+Note: All numbers are strictly positive. Your function should always return a string.
+
+Good luck!
+
+This challenge comes from user levan765. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
