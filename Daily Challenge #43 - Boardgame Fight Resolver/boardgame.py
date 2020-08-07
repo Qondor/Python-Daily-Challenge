@@ -3,7 +3,7 @@ def boardgame_fight(attacker, defender):
 
     Engage in simulation of real life combat. Fighter with bigger number wins and Cavalry wins wih Archers, if numbers are not realated then attackers always wins.
     """
-    
+
     fighters = {
         "Archers" : 3,
         "Swordsmen" : 2,
@@ -14,10 +14,10 @@ def boardgame_fight(attacker, defender):
     key_list = list(fighters.keys())
     val_list = list(fighters.values())
     
-    if fighters[attacker] - fighters[defender] == 1 or fighters[attacker] - fighters[defender] == -1:
-        return key_list[val_list.index(max(fighters[attacker], fighters[defender]))]
-    elif fighters[attacker] - fighters[defender] == 3 or fighters[attacker] - fighters[defender] == -3:
+    if fighters[attacker] - fighters[defender] == 3 or fighters[attacker] - fighters[defender] == -3:
         return "Cavalry"
+    elif fighters[attacker] - fighters[defender] == 1 or fighters[attacker] - fighters[defender] == -1:
+        return key_list[val_list.index(max(fighters[attacker], fighters[defender]))]
     else:
         return attacker
 
