@@ -1,0 +1,15 @@
+Today's challenge is a smaller part of a larger idea.
+
+You are creating a board game, similar to a mix between Fire Emblem and Chess. The game features four unique pieces: Swordsman, Cavalry, Archer, and Pikeman. Each piece has its own advantages and weaknesses in combat against other pieces.
+
+You must write a function fightResolve that takes the attacking and defending pieces as input parameters and returns the winning piece.
+
+The outcome of the fight between two pieces depends on which piece attacks, the type of the attacking piece and the type of the defending piece.
+
+Archers > Swordsmen > Pikemen > Cavalry > Archers
+
+Archers always win against swordsmen, swordsmen always win against pikemen, pikemen always win against cavalry and cavalry always win against archers.
+
+If a matchup occurs that was not previously mentioned (for example Archers vs Pikemen) the attacker will always win.
+
+This challenge comes from user Brysen on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
