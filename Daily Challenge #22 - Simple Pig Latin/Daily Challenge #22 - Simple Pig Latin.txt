@@ -3,3 +3,5 @@ Write a function that moves the first letter of each word to the end of the word
 Examples:
 pig_it('Pig latin is cool') # igPay atinlay siay oolcay
 pig_it('Hello world !') # elloHay orldway !
+
+This challenge comes from user2505876 on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
