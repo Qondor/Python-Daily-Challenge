@@ -14,6 +14,6 @@ def phone_formatter(number: int):
     
     return f'({number[0:3]}) {number[3:6]}-{number[6:]}'
 
-
-number = int(input("What's Your Number? "))
-print(phone_formatter(number))
+if __name__ == "__main__":
+    number = int(input("What's Your Number? "))
+    print(phone_formatter(number))
