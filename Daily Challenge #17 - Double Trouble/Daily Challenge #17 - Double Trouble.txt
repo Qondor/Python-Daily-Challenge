@@ -5,3 +5,5 @@ For example, Penny drinks the third can of cola and the queue will look like thi
 Rajesh, Howard, Sheldon, Sheldon, Leonard, Leonard, Penny, Penny
 
 Write a program that will return the name of the person who will drink the n-th cola. The input data consist of an array which contains at least 1 name, and single integer n which may go as high as the biggest number your language of choice supports (if there's such limit, of course). The output data returns the single line — the name of the person who drinks the n-th can of cola. The cans are numbered starting from 1.
+
+We're back with another challenge which comes from AlexisHappy on Codewars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
