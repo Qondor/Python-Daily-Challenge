@@ -5,11 +5,11 @@ def diamond(width):
     """
     try:
         if width % 2 == 0:
-            print("Width needs to be odd!")
-            return
+            return "Width needs to be odd!"
+            
     except TypeError:
-        print('Width needs to be a number!')
-        return
+        return "Width needs to be a number!"
+
     width += 1
     x_pos = (width//2 - 1)
     y_pos = range(width)
@@ -24,7 +24,7 @@ def diamond(width):
             x_pos += 1
 
 if __name__ == "__main__":
-    diamond(9)
-    diamond("LOL")
-    diamond(4)
-    diamond(21)
+    print(diamond(9))
+    print(diamond("LOL"))
+    print(diamond(4))
+    print(diamond(21))
