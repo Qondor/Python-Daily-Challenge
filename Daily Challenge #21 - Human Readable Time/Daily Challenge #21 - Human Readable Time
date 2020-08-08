@@ -5,3 +5,5 @@ The resulting expression is made of components like 4 seconds, 1 year, etc. The 
 The challenge is much easier to understand through example:
 format_duration(62) # returns "1 minute and 2 seconds"
 format_duration(3662) # returns "1 hour, 1 minute and 2 seconds"
+
+Today's challenge is from davazp on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
