@@ -7,3 +7,5 @@ wordify(17) == "seventeen"
 wordify(56) == "fifty six"
 wordify(90) == "ninety"
 wordify(326) == "three hundred twenty six"
+
+We have another challenge from MMMAAANNN on Codewars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
