@@ -1,4 +1,4 @@
-def MORSE_CODE(input_morse):
+def MORSE_CODE(input_text, direction):
     """Morse code converter.
 
     Can translate from Morse code to letters.
@@ -21,12 +21,15 @@ def MORSE_CODE(input_morse):
 
     morse_to_letters = { value:key for key, value in letters_to_morse.items()}
 
-    input_morse = input_morse.split()
+    input_text = input_text.split()
 
     result = ""
-    for letter in input_morse:
-        result += morse_to_letters[letter]
+    for letter in input_text:
+        if direction == "m_t_l":
+            result += morse_to_letters[letter]
+        else:
+            result += letters_to_morse[letter]
     return result
 
 if __name__ == "__main__":
-    print(MORSE_CODE(".... . -.-- .--- ..- -.. ."))
+    print(MORSE_CODE(".... . -.-- .--- ..- -.. .", "m_t_l"))
