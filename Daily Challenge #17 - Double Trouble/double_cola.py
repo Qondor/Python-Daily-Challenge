@@ -31,4 +31,4 @@ def cola_drinker_calculator(drinker):
     return cola_drinkers[int(nth_drinker[drinker])]
 
 if __name__ == "__main__":
-    cola_drinker_calculator(56)
+    print(cola_drinker_calculator(6))
