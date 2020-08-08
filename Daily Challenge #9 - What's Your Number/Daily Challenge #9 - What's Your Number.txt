@@ -4,3 +4,7 @@ The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parentheses!
 
 (XXX) XXX-XXXX
+
+Today's challenge comes from user xDranik on Codewars
+
+Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
