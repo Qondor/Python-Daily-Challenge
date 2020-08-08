@@ -4,10 +4,10 @@ def vowel_counter():
 
     Counts vowels in any given text.
     """
-    input_text = input("Write text to count vowels:")
+    input_text = input("Write text to count vowels: ")
     vowel_list = re.findall("[aeiou]", input_text, flags = re.I)
     countered_vowels = len(vowel_list)
-    print(countered_vowels)
+    return countered_vowels
 
 if __name__ == "__main__":
-    vowel_counter("Testable stingerino.")
+    print(vowel_counter())
