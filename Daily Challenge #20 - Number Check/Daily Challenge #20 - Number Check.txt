@@ -1,0 +1,7 @@
+Is the number prime?
+Is the number even?
+Is the number a multiple of 10?
+
+Each should return either true or false, which should be given as an array.
+
+Today's challenge comes from sohilpandya on Codewars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
