@@ -3,7 +3,6 @@ def name_shuffler(name):
 
     Changes place of first and last name.
     """
-
     name = name.split()
     return f'{name[-1]} {name[0]}'
 
