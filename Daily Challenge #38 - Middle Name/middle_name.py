@@ -3,7 +3,6 @@ def middle_name_shorter(name):
 
     Takes any name and shortens middle name/names. If name contains only one or two words it is just returned.
     """
-
     if len(name.split()) <= 2:
         return name
     else:
