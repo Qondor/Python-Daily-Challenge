@@ -3,6 +3,12 @@ def num_check(input_number):
 
     Checks if number is prime, even and a multiple of 10, and returns True/False for each in list.
     """
+    return [
+        is_prime(input_number),
+        is_divisible_by(input_number, 2),
+        is_divisible_by(input_number, 10)
+    ]
+
     prime = 0
     result = []
     if input_number > 1:
@@ -18,7 +24,7 @@ def num_check(input_number):
         result.append(True)
     else:
         result.append(False)
-    
+
     if (input_number % 10) == 0:
         result.append(True)
     else:
