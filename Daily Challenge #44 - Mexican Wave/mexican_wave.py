@@ -13,7 +13,6 @@ def wave(input_text):
         temp = "".join(temp)
         result.append(temp)
         x += 1
-
     return result
 
 if __name__ == "__main__":
