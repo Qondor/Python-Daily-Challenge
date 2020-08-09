@@ -1,7 +1,7 @@
 def boardgame_fight(attacker, defender):
     """Boardgame Fight Resolver.
 
-    Engage in simulation of real life combat. Fighter with bigger number wins and Cavalry wins wih Archers, if numbers are not realated then attackers always wins.
+    Engage in simulation of real life combat. Fighter with bigger number wins and Cavalry wins wih Archers, if numbers are not realated then attackers always win.
     """
 
     fighters = {
