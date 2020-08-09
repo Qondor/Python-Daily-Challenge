@@ -1,0 +1,13 @@
+Today's challenge requires you to calculate one's running pace.
+
+For example:
+
+runningPace(distance, time)
+distance - A float with the number of kilometres
+time - A string containing the time it took to travel the distance; it will always be minutes:seconds
+
+The function should return the pace, "5:20" means it took 5 minutes and 20 seconds to travel one kilometre.
+
+Happy Coding!
+
+This challenge comes from jtauri on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
