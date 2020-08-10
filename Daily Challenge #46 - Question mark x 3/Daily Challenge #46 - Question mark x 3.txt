@@ -1,0 +1,5 @@
+Today's challenge requires you to write a function which removes all question marks from a given string.
+
+For example: hello? would be hello
+
+This challenge comes from aikedaa from https://dev.to.
