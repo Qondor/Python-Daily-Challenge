@@ -1,0 +1,5 @@
+Today's challenge requires you to create a function that will take a float and return the amount formatted in dollars and cents.
+
+For example: 6.2 becomes $6.20
+
+This challenge comes from kolohelios on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
