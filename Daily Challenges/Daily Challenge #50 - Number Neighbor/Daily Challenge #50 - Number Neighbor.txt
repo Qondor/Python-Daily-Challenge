@@ -1,0 +1,5 @@
+Given a phone number of integer length N (1 ≤ N ≤ 10) as a number string (e.g. 555-555-5555 would be passed as "5555555555"), return an array of all phone numbers as number strings that would be considered neighbors of that phone number (which is any numbers ±1).
+
+For example: someone with the phone number 555-555-5555 has neighbors 555-555-5554 and 555-555-5556.
+
+This challenge comes from SaladFork on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
