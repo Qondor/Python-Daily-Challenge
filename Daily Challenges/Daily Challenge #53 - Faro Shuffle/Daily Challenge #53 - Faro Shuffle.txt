@@ -1,0 +1,9 @@
+To faro shuffle a deck of playing cards is to split the deck exactly in half, then perfectly interweave the cards, such that the original top and bottom cards are unchanged.
+
+Write a function that accepts a even-numbered list and faro shuffles the indices.
+
+Example
+Faro shuffling the list: ['ace', 'two', 'three', 'four', 'five', 'six']
+will give ['ace', 'four', 'two', 'five', 'three', 'six']
+
+Challenge from dev.to.
