@@ -1,0 +1,9 @@
+Write a function that calculates body mass index
+Note: bmi = weight / height ^ 2
+
+if bmi <= 18.5 return "Underweight"
+if bmi <= 25.0 return "Normal"
+if bmi <= 30.0 return "Overweight"
+if bmi > 30 return "Obese"
+
+This challenge comes from wichu on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
