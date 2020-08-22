@@ -1,0 +1,7 @@
+Today, your challenge is to help Bob with his coffee shop!
+
+Bob's coffee shop is really busy, so busy in fact that if you do not have the right amount of change, you won't get your coffee as Bob doesn't like waiting for people to sort change. Drinks avaialble are Americano £2.20, Latte £2.30, Flat white £2.40 and Filter £3.50
+
+Write a function that returns, "Here is your "+type+", have a nice day!" if they have the right change or returns "Sorry, exact change only, try again tomorrow!"
+
+This challenge comes from victoriabate on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
