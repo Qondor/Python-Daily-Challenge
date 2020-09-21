@@ -1,0 +1,8 @@
+Write a function that, when given a URL as a string, returns only the domain name as a string.
+
+domainName(https://twitter.com/explore) == "twitter"
+domainName(https://github.com/thepracticaldev/dev.to) == "github"
+domainName(https://www.youtube.com) == "youtube"
+Good luck!
+
+Licensed redistribution of this challenge under the 2-Clause BSD License!
