@@ -1,0 +1,18 @@
+Minecraft has gotten to be a very popular game. No doubt many reading this have played it themselves or watched someone else. In Minecraft, collected ore must be smelted in a furnace to change the resource into a usable form.
+
+Each ingot takes 11 seconds to produce. Steve has the following fuel options to add to the furnace:
+
+Buckets of lava, each lasts 800 seconds
+Blaze rod, each lasts 120 seconds
+Coals, each lasts 80 seconds
+Blocks of Wood, each lasts 15 seconds
+Sticks, each lasts 1 second*
+
+Write a function that calculates the minimum amount of fuel needed to produce a certain number of iron ingots.
+
+Ruby: {:lava => 2, :blaze_rod => 1, :coal => 1, :wood => 0, :stick => 0}
+JavaScript: {lava: 2, blazeRod: 1, coal: 1, wood: 0, stick: 0}
+
+Good luck!~
+
+Today's challenge comes from arwengu on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!

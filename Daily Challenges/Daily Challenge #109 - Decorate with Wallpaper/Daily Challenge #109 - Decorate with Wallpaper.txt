@@ -1,0 +1,19 @@
+John wants to decorate his room with wallpaper. He's heard that having the right amount of wallpaper can be trickier than it sounds. He'd like a fool-proof way to get it just right.
+
+John is measuring his room by length l, width w, and height h in meters. The rolls of wallpaper John purchased has a width of 52 centimeters. The length of a roll is 10 meters. Bear in mind however, that it is best to have an extra length of wallpaper handy in case of mistakes. John wants to buy 15% more wallpaper in length than he needs to account for miscalculations.
+
+Write a function wallpaper(l, w, h) and return a plain English word in lower case the number of rolls he should buy. All rolls will be put edge to edge, with no space leftover. The number of rolls will always be less than or equal to 20.
+
+Examples:
+wallpaper(4.0, 3.5, 3.0) should return "ten"
+wallpaper(0.0, 3.5, 3.0) should return "zero"
+
+Tests:
+wallpaper(6.3, 4.5, 3.29)
+wallpaper(7.8, 2.9, 3.29)
+wallpaper(6.3, 5.8, 3.13)
+wallpaper(6.1, 6.7, 2.81)
+
+Good luck!
+
+Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!

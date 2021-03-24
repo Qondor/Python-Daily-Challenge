@@ -1,5 +1,5 @@
 def century_calculator(century):
-    """Centruy calculator.
+    """Century calculator.
 
     Takes any year as an input and returns century.
     """
