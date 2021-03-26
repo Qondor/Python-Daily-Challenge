@@ -1,0 +1,20 @@
+If　a = 1, b = 2, c = 3 ... z = 26
+
+Then l + o + v + e = 54
+
+and f + r + i + e + n + d + s + h + i + p = 108
+
+So friendship is twice as strong as love :-)
+
+Write a function to find the "strength" of each of these values.
+
+Test cases:
+wordsToMarks(attitude)
+wordsToMarks(friends)
+wordsToMarks(family)
+wordsToMarks(selflessness)
+wordsToMarks(knowledge)
+
+Good luck!
+
+This challenge comes from J or nor J on CodeWars. Thank you to CodeWars, who has licensed redistribution of this challenge under the 2-Clause BSD License!
