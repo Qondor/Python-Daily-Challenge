@@ -1,0 +1,11 @@
+You all know the lyrics to the song "99 Bottles of Beer on the Wall", right?
+
+Instead of removing just one bottle in each iteration, we want to remove one more bottle than in the previous iteration (i.e. start with 99, then 98, then 96, 93, 89, etc.)
+
+The Challenge: Write a method that takes the initial number of beers on the wall and returns the number of iterations needed to remove all the bottles, in addition to providing the number of bottles removed in the last iteration. (as a tuple or as a string).
+
+Bonus — do the math, not just a simple loop (because that wouldn't be much of a challenge, would it?)
+
+Good luck!
+
+This challenge comes from @peledzohar here on DEV. 
